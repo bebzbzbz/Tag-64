@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 3rem;
+  font-family: Helvetica, sans-serif;
+}
+
+.FAQ li {
+  list-style: none;
+  background-color: bisque;
+  margin-bottom: 2rem;
+}
+.FAQ li div {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.FAQ li p {
+  padding: 1rem;
+  border-top: 1px solid black;
+}
+
+.counter {
+  padding: 2rem;
+  border: 1px solid black;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.counter div {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.counter button {
+  padding: 0 5px;
+}
+
+.form {
+  padding: 1rem;
+  background-color: rgb(255, 225, 225);
+  margin-bottom: 2rem;
+}
+.form div {
+  display: flex;
+  justify-content: space-between;
+  gap: .5rem;
+}
+.form input {
+  width: 100%;
+}
+
+.daynight {
+  text-align: center;
+  padding: 50px 0;
+}
+.night {
+  background-color: #000;
+  color: #fff;
+}
